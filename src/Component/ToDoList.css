@@ -1,0 +1,74 @@
+*{
+    background-color: rgb(252, 246, 245);
+
+}
+
+.container{
+    display:block;
+    text-align: center;
+    justify-content: center;
+}
+.title{
+    color: blue;
+    word-spacing: 5px;
+}
+.input{
+ margin: 15px 5px;
+ padding: 12px 65px; 
+ border-radius: 4px;
+ border: none;
+ background-color: #aec7f8;
+ letter-spacing: 2px;
+ text-align: start;
+}
+.Add{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2121b9;
+    color:white;
+    font-family: lighter;
+    font-size: 1.2em ;
+}
+.Ul-List{
+    list-style: none;
+    margin: 20px 150px 30px 150px ;
+   padding: 15px ;
+   display: flex;
+   justify-content: space-around;
+   width: fit-content ;
+   gap: 50px;
+   letter-spacing: 2px;
+   word-spacing: 3px;
+   border-radius: 10px;
+   border: solid 3px rgb(227, 223, 223) ;
+   word-wrap: break-word;
+}
+.Ul-line{
+display:grid;
+justify-content: center;
+align-items: center;
+}
+button{
+    font-size: 16px;
+    border: none;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fefefe;
+}
+.checkbox{
+    width:20px;
+     cursor: pointer;
+
+}
+.delete{
+    background-color: #d40909;
+}
+.buttonLine{
+display: flex;
+    gap:5px;
+}
+
+    
